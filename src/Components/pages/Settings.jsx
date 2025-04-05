@@ -1,4 +1,4 @@
-import Sidebar from "../sidebar";
+import Sidebar from "../Sidebar.jsx";
 import HeroContent2 from "../HeroSection2/HeroContent2";
 const Profile = () => {
   return (

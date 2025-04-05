@@ -1,4 +1,4 @@
-import Sidebar from "../sidebar";
+import Sidebar from "../Sidebar.jsx";
 import HeroContent7 from "../HeroSection7.jsx/HeroContent7";
 const Page6 = () => {
   return (
