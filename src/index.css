@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sora: "Sora", sans-serif;
+  --font-code: "Source Code Pro", monospace;
+  --font-grotesk: "Space Grotesk", sans-serif;
+  color-scheme: dark;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.rotate-45 {
+  @apply rotate-[45deg];
+}
+
+.rotate-90 {
+  @apply rotate-[90deg];
+}
+
+.rotate-135 {
+  @apply rotate-[135deg];
+}
+
+.rotate-180 {
+  @apply rotate-[180deg];
+}
+
+.rotate-225 {
+  @apply rotate-[225deg];
+}
+
+.rotate-270 {
+  @apply rotate-[270deg];
+}
+
+.rotate-315 {
+  @apply rotate-[315deg];
+}
+
+.rotate-360 {
+  @apply rotate-[360deg];
+}
+
+.-rotate-45 {
+  @apply rotate-[-45deg];
+}
+
+.-rotate-90 {
+  @apply rotate-[-90deg];
+}
+
+.-rotate-135 {
+  @apply rotate-[-135deg];
+}
+
+.-rotate-180 {
+  @apply rotate-[-180deg];
+}
+
+.-rotate-225 {
+  @apply rotate-[-225deg];
+}
+
+.-rotate-270 {
+  @apply rotate-[-270deg];
+}
+
+.-rotate-315 {
+  @apply rotate-[-315deg];
+}
+
+.-rotate-360 {
+  @apply rotate-[-360deg];
+}
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  @apply bg-[#f6f6f6];
+}
+
+@layer utilities {
+  .custom-scrollbar {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: black gray; /* thumb and track colors */
+  }
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 15px; /* Chrome, Safari */
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f3f4f6;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #4b5563;
+    border-radius: 4px;
+    border: 2px solid #f3f4f6;
+  }
+}
+@layer utilities {
+  @keyframes changeColor {
+    from {
+      background-color: blue;
+    }
+    to {
+      background-color: #fff;
+    }
+  }
+
+  .animate-change-color {
+    animation: changeColor 1s infinite alternate;
+  }
+}
+.no-select {
+  user-select: none;
+}
+.heading-h1 {
+  @apply relative text-black m-4 font-sans text-2xl lg:text-3xl font-bold w-fit;
+  @apply before:content-[''] before:absolute before:h-1 before:left-0 mb-6 before:bg-white before:w-[110%] before:bottom-[-30%];
+  @apply after:content-[''] after:absolute after:h-1 after:left-0 after:bg-black after:w-[50%] after:bottom-[-30%];
+}
+
+@layer base {
+  /* تخصيص خصائص البدي */
+  body {
+    @apply text-black font-roboto;
+    /* أو يمكنك استخدام أي خط آخر قمت بتعريفه في ملف tailwind.config.js */
+  }
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 0.5s forwards;
+}
+
+@keyframes fadeInAnimation {
+  to {
+    opacity: 1;
+  }
+}
+
+/* تعريف الحركة باستخدام keyframes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.card:nth-child(1) {
+  animation-delay: 0.05s;
+}
+.card:nth-child(2) {
+  animation-delay: 0.10s;
+}
+.card:nth-child(3) {
+  animation-delay: 0.15s;
+}
+.card:nth-child(4) {
+  animation-delay: 0.20s;
+}
+.card:nth-child(5) {
+  animation-delay: 0.25s;
+}
+.card:nth-child(6) {
+  animation-delay: 0.30s;
+}
+.card:nth-child(7) {
+  animation-delay: 0.35s;
+}
+.card:nth-child(8) {
+  animation-delay: 0.40s;
+}
+.card:nth-child(9) {
+  animation-delay: 0.45s;
+}
+.card:nth-child(10) {
+  animation-delay: 0.50s;
+}
+.card:nth-child(11) {
+  animation-delay: 0.55s;
+}
+.card:nth-child(12) {
+  animation-delay: 0.60s;
+}
+.card:nth-child(13) {
+  animation-delay: 0.65s;
+}
+.card:nth-child(14) {
+  animation-delay: 0.70s;
+}
+.card:nth-child(15) {
+  animation-delay: 0.75s;
+}
+.card:nth-child(16) {
+  animation-delay: 0.80s;
+}
+.card:nth-child(17) {
+  animation-delay: 0.85s;
+}
+.card:nth-child(18) {
+  animation-delay: 0.90s;
+}
+.card:nth-child(19) {
+  animation-delay: 0.95s;
+}
+.card:nth-child(20) {
+  animation-delay: 1.00s;
+}
+.card:nth-child(21) {
+  animation-delay: 1.05s;
+}
+.card:nth-child(22) {
+  animation-delay: 1.10s;
+}
+.card:nth-child(23) {
+  animation-delay: 1.15s;
+}
+.card:nth-child(24) {
+  animation-delay: 1.20s;
+}
+.card:nth-child(25) {
+  animation-delay: 1.25s;
+}
+.card:nth-child(26) {
+  animation-delay: 1.30s;
+}
+.card:nth-child(27) {
+  animation-delay: 1.35s;
+}
+.card:nth-child(28) {
+  animation-delay: 1.40s;
+}
+.card:nth-child(29) {
+  animation-delay: 1.45s;
+}
+.card:nth-child(30) {
+  animation-delay: 1.50s;
+}
+
+
+
+
+.card {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: fadeInUp 0.5s forwards;
+
+}
