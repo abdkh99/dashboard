@@ -13,21 +13,21 @@ const Sidebar = () => {
   const activeClassName = "bg-[#f6f6f6]";
 
   return (
-    <div className="sidebar text-black bg-white p-12 relative shadow-2xl w-[220px] max-md:w-[100px] max:md:p-6">
+    <div className="sidebar text-black bg-white p-10 relative shadow-2xl w-[220px] max-md:w-[60px]  items- overflow-hidden ">
       <h3
         className="relative text-center mt-0 mb-8 font-serif font-extrabold 
                    before:content[''] before:absolute before:w-1/2 before:h-0.5 before:bottom-[-10px] before:bg-black 
                    after:content[''] after:absolute after:rounded-full after:bg-black after:bottom-[-15px] after:w-3 after:h-3 after:left-1/2 after:translate-x-[-70%]  
-                   max-md:text-sm max-md:before:invisible max-md:after:invisible max-md:ml-[-2rem] max-md:text-nowrap"
+                   max-md:text-sm max-md:before:invisible max-md:after:invisible max-md:ml-[-2rem] max-md:text-nowrap max-md:invisible"
       >
         ABD KH
       </h3>
-      <ul className="ml-[-40px] list-none">
-        <li className="w-52">
+      <ul className=" w-full items-center absolute left-0 list-none">
+        <li className="w-full">
           <NavLink
             to="/"
             className={({ isActive }) =>
-              `border-gray-50 max-md:w-[5.8rem] flex text-center px-4 transition-all duration-75 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#eaeaea] ${
+              `border-gray-50 flex max-md:w-[100%] pl-4 transition-all duration-75 text-black border text-sm rounded-md mb-0.25 py-2 hover:bg-[#eaeaea] ${
                 isActive ? activeClassName : ""
               }`
             }
@@ -39,11 +39,11 @@ const Sidebar = () => {
             <span className="max-md:invisible">Dashboard</span>
           </NavLink>
         </li>
-        <li className="w-52">
+        <li className="w-full ">
           <NavLink
             to="/settings"
             className={({ isActive }) =>
-              `border-gray-50 max-md:w-[5.8rem] flex text-center px-4 transition-all duration-75 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
+              `border-gray-50 max-md:w-[150%]  flex  pl-4 transition-all duration-75 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
                 isActive ? activeClassName : ""
               }`
             }
@@ -55,11 +55,11 @@ const Sidebar = () => {
             <span className="max-md:invisible">Settings</span>
           </NavLink>
         </li>
-        <li className="w-52">
+        <li className="w-full ">
           <NavLink
             to="/profile"
             className={({ isActive }) =>
-              `border-gray-50 max-md:w-[5.8rem] flex text-center px-4 transition-all duration-75 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
+              `border-gray-50 max-md:w-[100%]  flex  px-4 transition-all duration-75 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
                 isActive ? activeClassName : ""
               }`
             }
@@ -71,11 +71,11 @@ const Sidebar = () => {
             <span className="max-md:invisible">Profile</span>
           </NavLink>
         </li>
-        <li className="w-52">
+        <li className="w-full ">
           <NavLink
             to="/projects"
             className={({ isActive }) =>
-              `border-gray-50 max-md:w-[5.8rem] flex text-center px-4 transition-all duration-75 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
+              `border-gray-50 max-md:w-[100%]  flex  px-4 transition-all duration-75 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
                 isActive ? activeClassName : ""
               }`
             }
@@ -87,11 +87,11 @@ const Sidebar = () => {
             <span className="max-md:invisible">Project</span>
           </NavLink>
         </li>
-        <li className="w-52">
+        <li className="w-full ">
           <NavLink
             to="/courses"
             className={({ isActive }) =>
-              `border-gray-50 max-md:w-[5.8rem] flex text-center px-4 transition-all duration-75 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
+              `border-gray-50 max-md:w-[100%]  flex  px-4 transition-all duration-75 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
                 isActive ? activeClassName : ""
               }`
             }
@@ -103,11 +103,11 @@ const Sidebar = () => {
             <span className="max-md:invisible">Courses</span>
           </NavLink>
         </li>
-        <li className="w-52">
+        <li className="w-full ">
           <NavLink
             to="/friends"
             className={({ isActive }) =>
-              `border-gray-50 max-md:w-[5.8rem] flex text-center px-4 transition-all duration-75 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
+              `border-gray-50 max-md:w-[100%]  flex  px-4 transition-all duration-75 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
                 isActive ? activeClassName : ""
               }`
             }
@@ -119,11 +119,11 @@ const Sidebar = () => {
             <span className="max-md:invisible">Friends</span>
           </NavLink>
         </li>
-        <li className="w-52">
+        <li className="w-full ">
           <NavLink
             to="/files"
             className={({ isActive }) =>
-              `border-gray-50 max-md:w-[5.8rem] flex text-center px-4 transition-all duration-75 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
+              `border-gray-50 max-md:w-[100%]  flex  px-4 transition-all duration-75 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
                 isActive ? activeClassName : ""
               }`
             }
@@ -135,11 +135,11 @@ const Sidebar = () => {
             <span className="max-md:invisible">Files</span>
           </NavLink>
         </li>
-        <li className="w-52">
+        <li className="w-full ">
           <NavLink
             to="/plans"
             className={({ isActive }) =>
-              `border-gray-50 max-md:w-[5.8rem] flex text-center px-4 transition-all duration-500 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
+              `border-gray-50 max-md:w-[100%]  flex  px-4 transition-all duration-500 text-black border text-sm rounded-md items-start mb-0.25 py-2 hover:bg-[#f6f6f6] ${
                 isActive ? activeClassName : ""
               }`
             }

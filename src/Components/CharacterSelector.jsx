@@ -27,7 +27,7 @@ function CharacterSelector() {
   const characters = [{ name: "Megaman" }, { name: "Zero" }, { name: "Sigma" }];
 
   return (
-    <div className="flex space-x-4 justify-center mt no-select">
+    <div className="flex space-x-1 justify-center no-select">
       {characters.map((char) => {
         const isSelected = selected === char.name;
 
@@ -38,7 +38,7 @@ function CharacterSelector() {
             // ونستفيد من تنسيقات Tailwind حسب حالة التحديد
             className={`
               cursor-pointer p-4 rounded-md border-2
-              flex flex-col items-center justify-center w-48
+              flex flex-col items-center justify-center 
               transition-colors 
               ${
                 isSelected

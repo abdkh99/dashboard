@@ -1,5 +1,5 @@
 import HeroContent4 from "./HeroContent4";
-import Sidebar from "../sidebar";
+import Sidebar from "../Sidebar";
 const Hero = () => {
   return (
     <div className="flex-auto w-full  overflow-hidden flex overflow-y-auto custom-scrollbar   ">

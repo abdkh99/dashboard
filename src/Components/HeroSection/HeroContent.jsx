@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faMagnifyingGlass} from  "@fortawesome/free-solid-svg-icons"
 import {faBell} from "@fortawesome/free-solid-svg-icons"
-import Page1 from "../pages/Page1"
+import Page1 from "../pages/page1"
 import logo from "/imgs/avatar.png";
 const HeroContent = () => {
   return (
@@ -14,12 +14,12 @@ const HeroContent = () => {
             icon={faMagnifyingGlass}
           />
           <input
-            className="p-2 border-[2px]  border-[#cacaca] pl-9 rounded-lg bg-white focus:placeholder:text-transparent outline-none focus:border-gray-400 w-[14rem] focus:w-[15rem] duration-300 transition-all  text-black"
+            className="p-2 border-[2px]  border-[#cacaca] pl-9 rounded-lg bg-white focus:placeholder:text-transparent outline-none focus:border-gray-400 w-[11rem] focus:w-[12rem] duration-300 transition-all text-black"
             type="serach"
             placeholder="type a keyword"
           />
         </div>
-        <div className="icons flex items-center">
+        <div className="icons flex items-center flex-grow-0 ">
           <span className=" notifcation relative">
             <FontAwesomeIcon
               color="red "
