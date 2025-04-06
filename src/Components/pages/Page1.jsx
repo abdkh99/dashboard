@@ -1,34 +1,45 @@
-import { faCode, faUser } from "../pages/icons.js";
 import {
   FontAwesomeIcon,
+  faCode,
+  faUser,
   faCheck,
   faCircleNotch,
   faEllipsis,
   faFaceSmile,
-  faTrash,
   faThumbsUp,
+  faTrash,
   faMessage,
+
   faFacebookF,
-  faYoutube,
   faLinkedin,
   faInstagram,
-} from "../pages/icons.js";
+  faYoutube,
+} from "../pages/icons"
+// import imaged
 import welcome from "../../../public/assets/welcome.png";
 import avatar from "../../../public/assets/avatar.png";
+import project from "../../../public/assets/project.png"
 import news_01 from "../../../public/assets/news-01.png";
 import news_02 from "../../../public/assets/news-02.png";
 import news_03 from "../../../public/assets/news-03.png";
 import news_04 from "../../../public/assets/news-04.png";
+// imporf files images
+import pdf from "../../../public/assets/pdf.svg";
+import avi from "../../../public/assets/avi.svg";
+import psd from "../../../public/assets/psd.svg";
+import eps from "../../../public/assets/eps.svg";
+import zip from "../../../public/assets/zip.svg";
+import dll from "../../../public/assets/dll.svg";
 const Page1 = () => {
   return (
     <>
       <div>
         <h1 className="heading-h1 fade-in">Dashboard</h1>
       </div>
-      <div className=" wrapper max-md:mx-1 text-center lg:mx-4 text-black grid grid-cols-3  max-xl:grid-cols-1 max-xl:gap-4   ">
+      <div className=" wrapper mx-2 max-md:mx-1 text-center lg:mx-4 text-black grid grid-cols-3  max-xl:grid-cols-1 max-xl:gap-4   ">
         <div className="welcome box-shadow rounded-md shadow-xl min-sm:ml-4  bg-white relative overflow-hidden card">
           <div className="intro flex relative bg-[#eee] w-full p-5 justify-between">
-            <div>
+            <div className="max-md:text-center w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <h2 className="m-0 font-bold text-xl">Welcome</h2>
               <p className="text-gray-500 mt-5">Elzero</p>
             </div>
@@ -44,14 +55,14 @@ const Page1 = () => {
             alt="no img"
           />
           <div className="body border border-gray-200 text-center flex justify-center p-10  mb-4 max-sm:block">
-            <span className="flex-1">
-              Devoloper : <span className="block">Abd Kh</span>
+            <span className="flex-1 block">
+              Devoloper: <span className="">Abd Kh</span>
             </span>
-            <span className="flex-1">
-              Projects : <span className="block">20</span>
+            <span className="flex-1 block">
+              Projects: <span className="">20</span>
             </span>
-            <span className="flex-1">
-              Earned :<span className="block">9000$</span>
+            <span className="flex-1 block">
+              Earned:<span className="">9000$</span>
             </span>
           </div>
           <div className="hover:bg-gray-50  transition-all border border-gray-300  rounded-lg mb-4 mt-0 mr-4 m-auto block w-fit">
@@ -98,9 +109,9 @@ const Page1 = () => {
               <span className="text-gray-500">Money :</span>
               <span className="block flex-1 mt-1 mb-2  font-bold">20000$</span>
 
-              <div className="progress  relative h-1 bg-blue-200  before:content-[''] before:absolute before:h-full  before:w-[40%] before:bg-blue-700  before:top-0 ">
+              <div className="progress  relative h-1 bg-blue-200  before:content-[''] before:absolute before:h-full  before:w-[99%] before:bg-blue-700  before:top-0 ">
                 <span
-                  className="absolute bottom-4 left-[40%] transform -translate-x-1/2  rounded-md px-0.5 py-0.25 
+                  className="absolute bottom-4 left-[99%] transform -translate-x-1/2  rounded-md px-0.5 py-0.25 
                      before:content-[''] before:absolute  before:bottom-[-6px] before:left-1/2       
                 before:translate-x-[-50%] 
                before:border-l-[7px] before:border-r-[7px] before:border-t-[7px]
@@ -110,7 +121,7 @@ const Page1 = () => {
                    bg-blue-700
                     "
                 >
-                  40%
+                  99$
                 </span>
               </div>
             </div>
@@ -274,7 +285,7 @@ const Page1 = () => {
             <img
               className="w-[120px] inline rounded-lg mr-3"
               src={news_04}
-              alt="no img"
+              alt="no img3"
             />
             <div className="info flex-1 ">
               <h3 className="m-0  font-bold text-xl">Added Payment Gateway</h3>
@@ -441,11 +452,7 @@ const Page1 = () => {
           <ul className="m-0">
             <li className="flex justify-between items-center pb-4 mb-2 border-b border-gray-400">
               <div className="flex items-center">
-                <img
-                  className="mr-5 w-[40px] h-[40px]"
-                  src="/imgs/pdf.svg"
-                  alt="no img"
-                />
+                <img className="mr-5 w-[40px] h-[40px]" src={pdf} alt="no img" />
                 <div>
                   <p className="m-0 block text-lg text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500 font-bold">
                     my-file.pdf
@@ -463,7 +470,7 @@ const Page1 = () => {
               <div className="flex items-center">
                 <img
                   className="mr-5 w-[40px] h-[40px]"
-                  src="/imgs/avi.svg"
+                  src={avi}
                   alt="no img"
                 />
                 <div>
@@ -481,7 +488,7 @@ const Page1 = () => {
               <div className="flex items-center">
                 <img
                   className="mr-5 w-[40px] h-[40px]"
-                  src="/imgs/psd.svg"
+                  src={psd}
                   alt="no img"
                 />
                 <div>
@@ -499,8 +506,8 @@ const Page1 = () => {
               <div className="flex items-center">
                 <img
                   className="mr-5 w-[40px] h-[40px]"
-                  src="/imgs/zip.svg"
-                  alt="no img"
+                  src={zip}
+                  alt=""
                 />
                 <div>
                   <p className="m-0 block text-lg text-transparent bg-clip-text bg-gradient-to-r from-[#243748] to-[#4b749f] font-bold">
@@ -517,8 +524,8 @@ const Page1 = () => {
               <div className="flex items-center">
                 <img
                   className="mr-5 w-[40px] h-[40px]"
-                  src="/imgs/dll.svg"
-                  alt="no img"
+                  src={dll}
+                  alt=""
                 />
                 <div>
                   <p className="m-0 block text-lg text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500 font-bold">
@@ -535,8 +542,8 @@ const Page1 = () => {
               <div className="flex items-center">
                 <img
                   className="mr-5 w-[40px] h-[40px]"
-                  src="/imgs/eps.svg"
-                  alt="no img"
+                  src={eps}
+                  alt=""
                 />
                 <div>
                   <p className="m-0 block text-lg text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-500 font-bold">
@@ -578,8 +585,8 @@ const Page1 = () => {
           </ul>
           <img
             className="max-sm:invisible absolute right-0 bottom-0 opacity-30 w-52"
-            src="/imgs/project.png"
-            alt="no img"
+            src={project}
+            alt=""
           />
         </div>
         {/* End Current Project*/}
@@ -632,8 +639,8 @@ const Page1 = () => {
           <div className="heading flex ">
             <img
               className="w-12 rounded-full mr-4"
-              src="/imgs/avatar.png"
-              alt="no img"
+              src={avatar}
+              alt=""
             />
             <div className="info flex flex-col text-start">
               <span className="block font-bold "> Abdullah Kh</span>

@@ -1,4 +1,7 @@
-export { fontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// FontAwesomeIcon component
+export { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+// Solid icons
 export {
   faCode,
   faUser,
@@ -6,10 +9,12 @@ export {
   faCircleNotch,
   faEllipsis,
   faFaceSmile,
-  faTrash,
   faThumbsUp,
+  faTrash,
   faMessage,
 } from "@fortawesome/free-solid-svg-icons";
+
+// Brand icons
 export {
   faFacebookF,
   faYoutube,
