@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import {
   FontAwesomeIcon,
   faCode,
@@ -46,13 +47,13 @@ const Page1 = () => {
       >
         {/* Start Welcome */}
         <div className="welcome box-shadow rounded-md shadow-xl min-sm:ml-4  bg-white mb-2 lg:gap-2 relative overflow-hidden card">
-          <div className="intro flex relative bg-[#eee] w-full p-5 justify-between">
-            <div className="max-md:text-center w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <div className="intro flex relative bg-[#eee] w-full p-5 justify-between items-center">
+            <div className=" w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 ">
               <h2 className="m-0 font-bold text-xl">Welcome</h2>
               <p className="text-gray-500 mt-5">Abd Kh</p>
             </div>
             <img
-              className="h-20  w-30 p-1 m-4 max-sm:invisible "
+              className="h-20 text-end w-30 p-1 m-4 max-xl:invisible "
               src={welcome}
               alt="no image"
             />
@@ -63,24 +64,24 @@ const Page1 = () => {
             alt="no img"
           />
           <div className="body border border-gray-200 text-center flex justify-center p-10  mb-4 max-sm:block">
-            <span className="flex-1 block">
-              Devoloper: <span className="">Abd Kh</span>
+            <span className="flex-1 max-sm:block">
+              Devoloper: <span className="md:block">Abd Kh</span>
             </span>
-            <span className="flex-1 block">
-              Projects: <span className="">20</span>
+            <span className="flex-1 max-sm:block">
+              Projects: <span className="md:block">20</span>
             </span>
-            <span className="flex-1 block">
-              Earned:<span className="">9000$</span>
+            <span className="flex-1 max-sm:block">
+              Earned:<span className="md:block">9000$</span>
             </span>
           </div>
           <div className="hover:bg-gray-50  transition-all border border-gray-300  rounded-lg mb-4 mt-0 mr-4 m-auto block w-fit">
-            <a
+            <NavLink
               className=" bg-gradient-to-r from-blue-700 to-purple-600 p-2.5  bg-clip-text text-transparent font-lg  transition-all
                 font-bold font-thing  "
-              href="profile.html"
+              to="/profile"
             >
               Profile
-            </a>
+            </NavLink>
           </div>
         </div>
         {/* End Welcome */}
@@ -97,7 +98,7 @@ const Page1 = () => {
               placeholder="title"
             />
             <textarea
-              className="block mb-4 bg-gray-200 border border-gray-300 text-gray-900 text-sm rounded-lg  focus:border-gray-700 outline-none  w-full p-2.5 transition-all  lg:h-[12rem] focus:placeholder:invisible resize-none"
+              className="block mb-4 bg-gray-200 border border-gray-300 text-gray-900 text-sm rounded-lg  focus:border-gray-700 outline-none  w-full p-2.5 transition-all  lg:h-[8rem] focus:placeholder:invisible resize-none"
               placeholder="You thought"
             ></textarea>
             <input
@@ -108,10 +109,11 @@ const Page1 = () => {
           </form>
         </div>
         {/* END QUICK DRAFT */}
-        <div className="targets  pt-5 px-3 card bg-white rounded-lg shadow-xl lg:gap-2 mb-2">
+        {/* Start Targets */}
+        <div className="targets pt-5 px-3 card bg-white rounded-lg shadow-xl lg:gap-2 mb-2">
           <h2 className="mt-0 mb-6 ">Targets</h2>
           <p className="mt-0 mb-4 text-gray-500">Targets Of The Year</p>
-          <div className="tragets-row mb-6 blue flex  items-center">
+          <div className="tragets-row mb-2 blue flex  items-center">
             <div className="icon text-blue-500 bg-blue-200 w-20 h-20 p-6   text-xl font-extrabold rounded-xl flex items-center justify-center">
               $
             </div>
@@ -136,7 +138,7 @@ const Page1 = () => {
               </div>
             </div>
           </div>
-          <div className="tragets-row mb-6 green flex  items-center">
+          <div className="tragets-row mb-2 green flex  items-center">
             <div className="icon text-green-500 bg-green-200 w-20 h-20 p-6   text-xl font-extrabold rounded-xl flex items-center justify-center">
               <FontAwesomeIcon icon={faCode} />
             </div>
@@ -161,8 +163,8 @@ const Page1 = () => {
               </div>
             </div>
           </div>
-          <div className="tragets-row mb-6 orange flex  items-center">
-            <div className="icon text-orange-500 bg-orange-200 w-20 h-20 p-6   text-xl font-extrabold rounded-xl flex items-center justify-center">
+          <div className="tragets-row mb-2 orange pb-6 flex  items-center">
+            <div className="icon text-orange-500 bg-orange-200 w-20 h-20 p-6  text-xl font-extrabold rounded-xl flex items-center justify-center">
               <FontAwesomeIcon icon={faUser} />
             </div>
             <div className="details flex translate-x-2 flex-col text-start w-full">
@@ -187,6 +189,8 @@ const Page1 = () => {
             </div>
           </div>
         </div>
+        {/* End Targets */}
+
         {/* Start Tickets Statistics */}
         <div className="tickets p-10 card lg:gap-2 mb-2 bg-white text-start  rounded-xl">
           <h2 className="max-sm:text-center font-bold text-2xl text-black pb-5">

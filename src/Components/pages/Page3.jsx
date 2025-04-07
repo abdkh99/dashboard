@@ -1,14 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import ToggleSwitch from "../ToggleSwitch";
+import avatar from "../../../public/assets/avatar.png"
+import activity_01 from "../../../public/assets/activity-01.png"
+import activity_02 from "../../../public/assets/activity-02.png"
+import activity_03 from "../../../public/assets/activity-03.png"
 const Page3 = () => {
   return (
     <>
       <h1 className="heading-h1 fade-in">Profile</h1>
-      <div className="profile-page m-6 text-black">
+      <div className="profile-page mx-3 text-black">
         <div className="card bg-white rounded-lg flex items-center max-lg:flex-col">
           <div className="avatar-box lg:border-r border-gray-200 p-20 text-center max-lg:pb-1 ">
-            <img className="w-32 rounded-full" src="/imgs/avatar.png " alt="" />
+            <img className="w-32 rounded-full" src={avatar} alt="no image" />
             <h3 className="m-0 font-lato font-bold mt-2">Abd kh</h3>
             <p className="text-gray-400 m-0 mb-1">devoloper</p>
             <div className="level rounded-lg bg-gray-300  relative h-2 overflow-hidden m-auto w-[70%]">
@@ -48,7 +52,7 @@ const Page3 = () => {
             {/*End Information row */}
 
             {/* Information row */}
-            <div className="box p-10 flex items-center hover:bg-gray-100 flex-wrap border-b border-b-gray-300 transition-colors">
+            <div className="box p-10 flex  items-center hover:bg-gray-100 flex-wrap border-b border-b-gray-300 transition-colors">
               <h1 className="w-full m-0 font-bold text-black ">
                 Personal Information
               </h1>
@@ -117,7 +121,7 @@ const Page3 = () => {
         </div>
         {/* Start Other Data */}
         <div className="card other-data flex gap-6 max-md:flex-col ">
-          <div className="skills-card p-8 bg-white rounded-lg mt-10 min-w-[30%]">
+          <div className="skills-card p-8 bg-white rounded-lg mt-4 min-w-[30%]">
             <h2 className="md:text-3xl max-md:text-2xl font-bold font-cairo ">
               My Skills
             </h2>
@@ -187,14 +191,15 @@ const Page3 = () => {
               </li>
             </ul>
           </div>
-          <div className="activities p-8 bg-white rounded-lg mt-10 flex-grow">
+          {/* Start Last Activities */}
+          <div className="activities p-8 bg-white rounded-lg mt-4 flex-grow">
             <h2 className="font-bold text-xl">Latest Activities</h2>
             <p className="text-gray-400 font-roboto">
               Latest Activities Done By The User
             </p>
             {/* Start New Row */}
             <div className="activity max-md:text-center flex items-center mt-4 border-b pb-4 max-md:flex-col max-md:items-center">
-              <img className="w-16 mr-4" src="/imgs/activity-01.png" alt="" />
+              <img className="w-16 mr-4" src={activity_01} alt="no image" />
               <div className="info flex flex-col ">
                 <span className="font-bold text-lg md:text-start">Store</span>
                 <span className="text-gray-600">
@@ -209,7 +214,7 @@ const Page3 = () => {
             {/* end The Row */}
             {/* Start New Row */}
             <div className="activity max-md:text-center flex items-center mt-4 border-b pb-4 max-md:flex-col max-md:items-center">
-              <img className="w-16 mr-4" src="/imgs/activity-02.png" alt="" />
+              <img className="w-16 mr-4" src={activity_02} alt="no image" />
               <div className="info flex flex-col ">
                 <span className="font-bold text-lg md:text-start">Academy</span>
                 <span className="text-gray-600">Got The PHP Certificate</span>
@@ -222,7 +227,7 @@ const Page3 = () => {
             {/* end The Row */}
             {/* Start New Row */}
             <div className="activity max-md:text-center flex items-center mt-4 border-b pb-4 max-md:flex-col max-md:items-center">
-              <img className="w-16 mr-4" src="/imgs/activity-03.png" alt="" />
+              <img className="w-16 mr-4" src={activity_03} alt="no image" />
               <div className="info flex flex-col ">
                 <span className="font-bold text-lg md:text-start">Badges</span>
                 <span className="text-gray-600">
@@ -237,7 +242,7 @@ const Page3 = () => {
             {/* end The Row */}
             {/* Start New Row */}
             <div className="activity max-md:text-center flex items-center mt-4 border-b pb-4 max-md:flex-wr max-md:flex-col max-md:items-center ">
-              <img className="w-16 mr-4" src="/imgs/activity-01.png" alt="" />
+              <img className="w-16 mr-4" src={activity_01} alt="no image" />
               <div className="info flex flex-col ">
                 <span className="font-bold text-lg md:text-start ">Store</span>
                 <span className="text-gray-600">

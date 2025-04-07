@@ -1,9 +1,15 @@
+import friends_01 from "../../../public/assets/friend-01.jpg";
+import friends_02 from "../../../public/assets/friend-02.jpg";
+import friends_03 from "../../../public/assets/friend-03.jpg";
+import friends_04 from "../../../public/assets/friend-04.jpg";
+import friends_05 from "../../../public/assets/friend-05.jpg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFaceSmileWink } from "@fortawesome/free-solid-svg-icons";
 import { faNewspaper } from "@fortawesome/free-solid-svg-icons";
 import { faDiagramProject } from "@fortawesome/free-solid-svg-icons";
-import {faEnvelope} from "@fortawesome/free-solid-svg-icons" 
-import {faPhoneVolume} from "@fortawesome/free-solid-svg-icons" 
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 const Page6 = () => {
   return (
     <>
@@ -39,7 +45,7 @@ const Page6 = () => {
           <div className="image flex items-center justify-center">
             <img
               className="rounded-full w-24  mt-2"
-              src="/imgs/friend-01.jpg"
+              src={friends_01}
               alt="no img"
             />
           </div>
@@ -109,7 +115,7 @@ const Page6 = () => {
           <div className="image flex items-center justify-center">
             <img
               className="rounded-full w-24  mt-2"
-              src="/imgs/friend-02.jpg"
+              src={friends_02}
               alt="no img"
             />
           </div>
@@ -176,7 +182,7 @@ const Page6 = () => {
           <div className="image flex items-center justify-center">
             <img
               className="rounded-full w-24  mt-2"
-              src="/imgs/friend-03.jpg"
+              src={friends_03}
               alt="no img"
             />
           </div>
@@ -246,7 +252,7 @@ const Page6 = () => {
           <div className="image flex items-center justify-center">
             <img
               className="rounded-full w-24  mt-2"
-              src="/imgs/friend-04.jpg"
+              src={friends_04}
               alt="no img"
             />
           </div>
@@ -313,7 +319,7 @@ const Page6 = () => {
           <div className="image flex items-center justify-center">
             <img
               className="rounded-full w-24 mt-2"
-              src="/imgs/friend-05.jpg"
+              src={friends_05}
               alt="no img"
             />
           </div>
@@ -383,7 +389,7 @@ const Page6 = () => {
           <div className="image flex items-center justify-center">
             <img
               className="rounded-full w-24  mt-2"
-              src="/imgs/friend-02.jpg"
+              src={friends_02}
               alt="no img"
             />
           </div>
@@ -450,7 +456,7 @@ const Page6 = () => {
           <div className="image flex items-center justify-center">
             <img
               className="rounded-full w-24  mt-2"
-              src="/imgs/friend-01.jpg"
+              src={friends_01}
               alt="no img"
             />
           </div>
@@ -520,7 +526,7 @@ const Page6 = () => {
           <div className="image flex items-center justify-center">
             <img
               className="rounded-full w-24  mt-2"
-              src="/imgs/friend-03.jpg"
+              src={friends_03}
               alt="no img"
             />
           </div>
@@ -590,7 +596,7 @@ const Page6 = () => {
           <div className="image flex items-center justify-center">
             <img
               className="rounded-full w-24  mt-2"
-              src="/imgs/friend-04.jpg"
+              src={friends_04}
               alt="no img"
             />
           </div>
@@ -657,7 +663,7 @@ const Page6 = () => {
           <div className="image flex items-center justify-center">
             <img
               className="rounded-full w-24 mt-2"
-              src="/imgs/friend-05.jpg"
+              src={friends_05}
               alt="no img"
             />
           </div>

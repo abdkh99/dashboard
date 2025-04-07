@@ -1,4 +1,7 @@
-import React from "react";
+import team_01 from "../../../public/assets/team-01.png";
+import team_02 from "../../../public/assets/team-02.png";
+import team_03 from "../../../public/assets/team-03.png";
+import team_04 from "../../../public/assets/team-04.png";
 
 const Page4 = () => {
   return (
@@ -26,24 +29,20 @@ const Page4 = () => {
               </span>
             </div>
             <div className="flex mt-4">
+              <img className="rounded-full w-10" src={team_01} alt="" />
               <img
-                className="rounded-full w-10"
-                src="/imgs/team-01.png"
+                className="rounded-full w-10 ml-[-1rem]"
+                src={team_02}
                 alt=""
               />
               <img
                 className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-02.png"
+                src={team_03}
                 alt=""
               />
               <img
                 className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-03.png"
-                alt=""
-              />
-              <img
-                className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-04.png"
+                src={team_04}
                 alt=""
               />
             </div>
@@ -89,19 +88,15 @@ const Page4 = () => {
               </span>
             </div>
             <div className="flex mt-4">
+              <img className="rounded-full w-10" src={team_01} alt="" />
               <img
-                className="rounded-full w-10"
-                src="/imgs/team-01.png"
+                className="rounded-full w-10 ml-[-1rem]"
+                src={team_02}
                 alt=""
               />
               <img
                 className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-02.png"
-                alt=""
-              />
-              <img
-                className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-03.png"
+                src={team_03}
                 alt=""
               />
             </div>
@@ -141,19 +136,15 @@ const Page4 = () => {
               </span>
             </div>
             <div className="flex mt-4">
+              <img className="rounded-full w-10" src={team_01} alt="" />
               <img
-                className="rounded-full w-10"
-                src="/imgs/team-01.png"
+                className="rounded-full w-10 ml-[-1rem]"
+                src={team_02}
                 alt=""
               />
               <img
                 className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-02.png"
-                alt=""
-              />
-              <img
-                className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-03.png"
+                src={team_03}
                 alt=""
               />
             </div>
@@ -190,24 +181,20 @@ const Page4 = () => {
               </span>
             </div>
             <div className="flex mt-4">
+              <img className="rounded-full w-10" src={team_01} alt="" />
               <img
-                className="rounded-full w-10"
-                src="/imgs/team-01.png"
+                className="rounded-full w-10 ml-[-1rem]"
+                src={team_02}
                 alt=""
               />
               <img
                 className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-02.png"
+                src={team_03}
                 alt=""
               />
               <img
                 className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-03.png"
-                alt=""
-              />
-              <img
-                className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-04.png"
+                src={team_04}
                 alt=""
               />
             </div>
@@ -253,14 +240,10 @@ const Page4 = () => {
               </span>
             </div>
             <div className="flex mt-4">
-              <img
-                className="rounded-full w-10"
-                src="/imgs/team-01.png"
-                alt=""
-              />
+              <img className="rounded-full w-10" src={team_01} alt="" />
               <img
                 className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-02.png"
+                src={team_02}
                 alt=""
               />
             </div>
@@ -300,11 +283,7 @@ const Page4 = () => {
               </span>
             </div>
             <div className="flex mt-4">
-              <img
-                className="rounded-full w-10"
-                src="/imgs/team-01.png"
-                alt=""
-              />
+              <img className="rounded-full w-10" src={team_01} alt="" />
             </div>
           </div>
 
@@ -339,24 +318,20 @@ const Page4 = () => {
               </span>
             </div>
             <div className="flex mt-4">
+              <img className="rounded-full w-10" src={team_01} alt="" />
               <img
-                className="rounded-full w-10"
-                src="/imgs/team-01.png"
+                className="rounded-full w-10 ml-[-1rem]"
+                src={team_02}
                 alt=""
               />
               <img
                 className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-02.png"
+                src={team_03}
                 alt=""
               />
               <img
                 className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-03.png"
-                alt=""
-              />
-              <img
-                className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-04.png"
+                src={team_04}
                 alt=""
               />
             </div>
@@ -402,19 +377,15 @@ const Page4 = () => {
               </span>
             </div>
             <div className="flex mt-4">
+              <img className="rounded-full w-10" src={team_01} alt="" />
               <img
-                className="rounded-full w-10"
-                src="/imgs/team-01.png"
+                className="rounded-full w-10 ml-[-1rem]"
+                src={team_02}
                 alt=""
               />
               <img
                 className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-02.png"
-                alt=""
-              />
-              <img
-                className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-03.png"
+                src={team_03}
                 alt=""
               />
             </div>
@@ -460,24 +431,20 @@ const Page4 = () => {
               </span>
             </div>
             <div className="flex mt-4">
+              <img className="rounded-full w-10" src={team_01} alt="" />
               <img
-                className="rounded-full w-10"
-                src="/imgs/team-01.png"
+                className="rounded-full w-10 ml-[-1rem]"
+                src={team_02}
                 alt=""
               />
               <img
                 className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-02.png"
+                src={team_03}
                 alt=""
               />
               <img
                 className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-03.png"
-                alt=""
-              />
-              <img
-                className="rounded-full w-10 ml-[-1rem]"
-                src="/imgs/team-04.png"
+                src={team_04}
                 alt=""
               />
             </div>

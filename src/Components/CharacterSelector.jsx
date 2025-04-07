@@ -27,7 +27,7 @@ function CharacterSelector() {
   const characters = [{ name: "Megaman" }, { name: "Zero" }, { name: "Sigma" }];
 
   return (
-    <div className="flex space-x-1 justify-center no-select">
+    <div className="flex space-x-1 max-sm:flex-wrap justify-center w-full no-select">
       {characters.map((char) => {
         const isSelected = selected === char.name;
 
@@ -39,7 +39,7 @@ function CharacterSelector() {
             className={`
               cursor-pointer p-4 rounded-md border-2
               flex flex-col items-center justify-center 
-              transition-colors 
+              transition-colors w-64 flex-1
               ${
                 isSelected
                   ? "border-blue-500 text-blue-600"

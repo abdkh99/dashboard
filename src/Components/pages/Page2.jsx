@@ -23,9 +23,9 @@ const Page2 = () => {
       <h1 className="heading-h1 fade-in">Settings</h1>
       <>
         <div
-          className="settings-page lg:m-10 max-lg:m-2  text-black 
-        
-        grid lg:grid-cols-[repeat(auto-fill,_minmax(500px,_1fr))] gap-4 
+          className="settings-page max-lg:m-2 mx-4 text-black 
+        max-sm:mx-2 max-sm:flex max-sm:flex-col grid max-sm:mb-6
+       lg:grid-cols-[repeat(auto-fill,_minmax(500px,_1fr))] gap-4 
         max-lg:grid-cols-[repeat(auto-fill,_minmax(300px,_1fr))] max-lg:gap-2 "
         >
           <div className="p-10 bg-white rounded-lg shadow-xl card">

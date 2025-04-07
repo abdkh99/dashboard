@@ -1,3 +1,9 @@
+import course_01 from "../../../public/assets/course-01.jpg";
+import course_02 from "../../../public/assets/course-02.jpg";
+import course_03 from "../../../public/assets/course-03.jpg";
+import course_04 from "../../../public/assets/course-04.jpg";
+import course_05 from "../../../public/assets/course-05.jpg";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 const Page5 = () => {
@@ -18,7 +24,7 @@ const Page5 = () => {
         {/* Start Box */}
         <div className="box bg-white card rounded-lg mx-2 relative">
           <div className="image">
-            <img src="/imgs/course-01.jpg" alt="no img" />
+            <img src={course_01} alt="no img" />
           </div>
           <div className="">
             <h3 className="ml-4 my-4">Mastering Web Design</h3>
@@ -58,7 +64,7 @@ const Page5 = () => {
         {/* Start Box */}
         <div className="box bg-white card rounded-lg mx-2 relative">
           <div className="image">
-            <img src="/imgs/course-02.jpg" alt="no img" />
+            <img src={course_02} alt="no img" />
           </div>
           <div className="">
             <h3 className="ml-4 my-4">Data Structure And Algorithms</h3>
@@ -98,7 +104,7 @@ const Page5 = () => {
         {/* Start Box */}
         <div className="box bg-white card rounded-lg mx-2 relative">
           <div className="image">
-            <img src="/imgs/course-03.jpg" alt="no img" />
+            <img src={course_03} alt="no img" />
           </div>
           <div className="">
             <h3 className="ml-4 my-4">
@@ -140,7 +146,7 @@ const Page5 = () => {
         {/* Start Box */}
         <div className="box bg-white card rounded-lg mx-2 relative">
           <div className="image">
-            <img src="/imgs/course-04.jpg" alt="no img" />
+            <img src={course_04} alt="no img" />
           </div>
           <div className="">
             <h3 className="ml-4 my-4">Mastering Python</h3>
@@ -179,7 +185,7 @@ const Page5 = () => {
         {/* Start Box */}
         <div className="box bg-white card rounded-lg mx-2 relative">
           <div className="image">
-            <img src="/imgs/course-05.jpg" alt="no img" />
+            <img src={course_05} alt="no img" />
           </div>
           <div className="">
             <h3 className="ml-4 my-4">PHP Examples</h3>
@@ -219,7 +225,7 @@ const Page5 = () => {
         {/* Start Box */}
         <div className="box bg-white card rounded-lg mx-2 relative">
           <div className="image">
-            <img src="/imgs/course-02.jpg" alt="no img" />
+            <img src={course_02} alt="no img" />
           </div>
           <div className="">
             <h3 className="ml-4 my-4">Data Structure And Algorithms</h3>
@@ -258,7 +264,7 @@ const Page5 = () => {
         {/* Start Box */}
         <div className="box bg-white card rounded-lg mx-2 relative">
           <div className="image">
-            <img src="/imgs/course-01.jpg" alt="no img" />
+            <img src={course_01} alt="no img" />
           </div>
           <div className="">
             <h3 className="ml-4 my-4">Mastering Web Design</h3>
@@ -297,7 +303,7 @@ const Page5 = () => {
         {/* Start Box */}
         <div className="box bg-white card rounded-lg mx-2 relative">
           <div className="image">
-            <img src="/imgs/course-05.jpg" alt="no img" />
+            <img src={course_05} alt="no img" />
           </div>
           <div className="">
             <h3 className="ml-4 my-4">PHP Examples</h3>
@@ -336,7 +342,7 @@ const Page5 = () => {
         {/* Start Box */}
         <div className="box bg-white card rounded-lg mx-2 relative">
           <div className="image">
-            <img src="/imgs/course-03.jpg" alt="no img" />
+            <img src={course_03} alt="no img" />
           </div>
           <div className="">
             <h3 className="ml-4 my-4">
@@ -379,7 +385,7 @@ const Page5 = () => {
         {/* Start Box */}
         <div className="box bg-white card rounded-lg mx-2 relative">
           <div className="image">
-            <img src="/imgs/course-04.jpg" alt="no img" />
+            <img src={course_04} alt="no img" />
           </div>
           <div className="">
             <h3 className="ml-4 my-4">Mastering Python</h3>

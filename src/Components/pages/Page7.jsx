@@ -1,3 +1,8 @@
+import pdf from "../../../public/assets/pdf.svg"
+import psd from "../../../public/assets/psd.svg"
+import avi from "../../../public/assets/avi.svg"
+import eps from "../../../public/assets/eps.svg"
+import dll from "../../../public/assets/dll.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faDownload} from "@fortawesome/free-solid-svg-icons" 
 const Page7 = () => {
@@ -11,7 +16,7 @@ const Page7 = () => {
             {/* Start PD */}
             <div className="row-box flex justify-between items-center border p-2 rounded-lg mb-2">
               <div className="flex flex-row">
-                <img className="w-7 mr-2" src="/imgs/pdf.svg" alt="" />
+                <img className="w-7 mr-2" src={pdf} alt="" />
                 <div className="flex flex-col text-xs">
                   <span>Pdf Files</span>
                   <span className="text-gray-400">130</span>
@@ -25,7 +30,7 @@ const Page7 = () => {
             {/* Start PD */}
             <div className="row-box flex justify-between items-center border p-2 rounded-lg mb-2">
               <div className="flex flex-row">
-                <img className="w-7 mr-2" src="/imgs/eps.svg" alt="" />
+                <img className="w-7 mr-2" src={eps} alt="" />
                 <div className="flex flex-col text-xs">
                   <span>eps Files</span>
                   <span className="text-gray-400">13</span>
@@ -39,7 +44,7 @@ const Page7 = () => {
             {/* Start PD */}
             <div className="row-box flex justify-between items-center border p-2 rounded-lg mb-2">
               <div className="flex flex-row">
-                <img className="w-7 mr-2" src="/imgs/dll.svg" alt="" />
+                <img className="w-7 mr-2" src={dll} alt="" />
                 <div className="flex flex-col text-xs">
                   <span>dll Files</span>
                   <span className="text-gray-400">50</span>
@@ -53,7 +58,7 @@ const Page7 = () => {
             {/* Start PD */}
             <div className="row-box flex justify-between items-center border p-2 rounded-lg mb-2">
               <div className="flex flex-row">
-                <img className="w-7 mr-2" src="/imgs/psd.svg" alt="" />
+                <img className="w-7 mr-2" src={psd} alt="" />
                 <div className="flex flex-col text-xs">
                   <span>psd Files</span>
                   <span className="text-gray-400">55</span>
@@ -101,7 +106,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.pdf'] before:bottom-[-1.5rem] before:text-sm ">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/pdf.svg"
+                  src={pdf}
                   alt="no img"
                 />
               </div>
@@ -132,7 +137,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.avi'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/avi.svg"
+                  src={avi}
                   alt="no img"
                 />
               </div>
@@ -163,7 +168,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.pdf'] before:bottom-[-1.5rem] before:text-sm ">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/pdf.svg"
+                  src={pdf}
                   alt="no img"
                 />
               </div>
@@ -194,7 +199,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.avi'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/eps.svg"
+                  src={eps}
                   alt="no img"
                 />
               </div>
@@ -225,7 +230,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.avi'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/eps.svg"
+                  src={eps}
                   alt="no img"
                 />
               </div>
@@ -256,7 +261,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.dell'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/dll.svg"
+                  src={dll}
                   alt="no img"
                 />
               </div>
@@ -318,7 +323,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.psd'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/psd.svg"
+                  src={psd}
                   alt="no img"
                 />
               </div>
@@ -349,7 +354,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.avi'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/avi.svg"
+                  src={avi}
                   alt="no img"
                 />
               </div>
@@ -380,7 +385,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.psd'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/psd.svg"
+                  src={psd}
                   alt="no img"
                 />
               </div>
@@ -442,7 +447,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.dell'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/dll.svg"
+                  src={dll}
                   alt="no img"
                 />
               </div>
@@ -473,7 +478,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.pdf'] before:bottom-[-1.5rem] before:text-sm ">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/pdf.svg"
+                  src={pdf}
                   alt="no img"
                 />
               </div>
@@ -504,7 +509,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.avi'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/avi.svg"
+                  src={avi}
                   alt="no img"
                 />
               </div>
@@ -535,7 +540,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.psd'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/psd.svg"
+                  src={psd}
                   alt="no img"
                 />
               </div>
@@ -597,7 +602,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.psd'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/psd.svg"
+                  src={psd}
                   alt="no img"
                 />
               </div>
@@ -628,7 +633,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.dell'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/dll.svg"
+                  src={dll}
                   alt="no img"
                 />
               </div>
@@ -659,7 +664,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.avi'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/eps.svg"
+                  src={eps}
                   alt="no img"
                 />
               </div>
@@ -690,7 +695,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.avi'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/avi.svg"
+                  src={avi}
                   alt="no img"
                 />
               </div>
@@ -720,7 +725,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.pdf'] before:bottom-[-1.5rem] before:text-sm ">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/pdf.svg"
+                  src={pdf}
                   alt="no img"
                 />
               </div>
@@ -751,7 +756,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.avi'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/avi.svg"
+                  src={avi}
                   alt="no img"
                 />
               </div>
@@ -782,7 +787,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.psd'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/psd.svg"
+                  src={psd}
                   alt="no img"
                 />
               </div>
@@ -813,7 +818,7 @@ card pb-5 ml-2 relative mt-3 rounded-md "
               <div className="heading w-full flex justify-center relative before:absolute before:content-['my-file.dell'] before:bottom-[-1.5rem] before:text-sm">
                 <img
                   className="w-16 group-hover:rotate-12 transition-transform"
-                  src="/imgs/dll.svg"
+                  src={dll}
                   alt="no img"
                 />
               </div>
