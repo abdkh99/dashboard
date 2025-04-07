@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faMagnifyingGlass} from  "@fortawesome/free-solid-svg-icons"
 import {faBell} from "@fortawesome/free-solid-svg-icons"
-import Page1 from "../pages/page1"
+import Page1 from "../pages/Page1"
 import logo from "/imgs/avatar.png";
 const HeroContent = () => {
   return (
