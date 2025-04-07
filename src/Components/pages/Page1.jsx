@@ -9,16 +9,15 @@ import {
   faThumbsUp,
   faTrash,
   faMessage,
-
   faFacebookF,
   faLinkedin,
   faInstagram,
   faYoutube,
-} from "../pages/icons"
+} from "../pages/icons";
 // import imaged
 import welcome from "../../../public/assets/welcome.png";
-import avatar from "../../../public/assets/avatar.png";
-import project from "../../../public/assets/project.png"
+import avatar  from "../../../public/assets/avatar.png";
+import project from "../../../public/assets/project.png";
 import news_01 from "../../../public/assets/news-01.png";
 import news_02 from "../../../public/assets/news-02.png";
 import news_03 from "../../../public/assets/news-03.png";
@@ -37,7 +36,7 @@ const Page1 = () => {
         <h1 className="heading-h1 fade-in">Dashboard</h1>
       </div>
       <div className=" wrapper mx-2 max-md:mx-1 text-center lg:mx-4 text-black grid grid-cols-3  max-xl:grid-cols-1 max-xl:gap-4   ">
-        <div className="welcome box-shadow rounded-md shadow-xl min-sm:ml-4  bg-white relative overflow-hidden card">
+        <div className="welcome box-shadow rounded-md shadow-xl min-sm:ml-4  bg-white mb-2 ml-2 relative overflow-hidden card">
           <div className="intro flex relative bg-[#eee] w-full p-5 justify-between">
             <div className="max-md:text-center w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <h2 className="m-0 font-bold text-xl">Welcome</h2>
@@ -50,7 +49,7 @@ const Page1 = () => {
             />
           </div>
           <img
-            className="avat20 w-10 max-sm:left-1/2 ml-8 max-sm:ml-0 max-sm:translate-x-[-50%] mt-[-1.5rem] z-10 relative mb-2 "
+            className=" w-10 max-sm:left-1/2 ml-8 max-sm:ml-0 max-sm:translate-x-[-50%] mt-[-1.5rem] z-10 relative mb-2 "
             src={avatar}
             alt="no img"
           />
@@ -75,7 +74,7 @@ const Page1 = () => {
             </a>
           </div>
         </div>
-        <div className="quic-draft p-5 h-full card box-shadow rounded-md shadow-xl min-sm:ml-4  bg-white  relative overflow-hidden ">
+        <div className="quic-draft p-5 mb-2 card box-shadow rounded-md shadow-xl min-sm:ml-4  bg-white  relative overflow-hidden  ml-2 ">
           <h2 className="mb-1 m-0 font-bold">QuiCk Draft</h2>
           <p className="text-gray-400 mt-0 mb-10">
             Write A Draft For Your Ideas
@@ -87,7 +86,7 @@ const Page1 = () => {
               placeholder="title"
             />
             <textarea
-              className="block mb-4 bg-gray-200 border border-gray-300 text-gray-900 text-sm rounded-lg  focus:border-gray-700 outline-none  w-full p-2.5 transition-all  lg:h-[12rem] focus:placeholder:invisible"
+              className="block mb-4 bg-gray-200 border border-gray-300 text-gray-900 text-sm rounded-lg  focus:border-gray-700 outline-none  w-full p-2.5 transition-all  lg:h-[12rem] focus:placeholder:invisible resize-none"
               placeholder="You thought"
             ></textarea>
             <input
@@ -98,7 +97,7 @@ const Page1 = () => {
           </form>
         </div>
 
-        <div className="targets pt-5 px-3 card bg-white rounded-lg shadow-xl">
+        <div className="targets  pt-5 px-3 card bg-white rounded-lg shadow-xl ml-2 mb-2">
           <h2 className="mt-0 mb-6 ">Targets</h2>
           <p className="mt-0 mb-4 text-gray-500">Targets Of The Year</p>
           <div className="tragets-row mb-6 blue flex  items-center">
@@ -109,9 +108,9 @@ const Page1 = () => {
               <span className="text-gray-500">Money :</span>
               <span className="block flex-1 mt-1 mb-2  font-bold">20000$</span>
 
-              <div className="progress  relative h-1 bg-blue-200  before:content-[''] before:absolute before:h-full  before:w-[99%] before:bg-blue-700  before:top-0 ">
+              <div className="progress  relative h-1 bg-blue-200  before:content-[''] before:absolute before:h-full  before:w-[55%] before:bg-blue-700  before:top-0 ">
                 <span
-                  className="absolute bottom-4 left-[99%] transform -translate-x-1/2  rounded-md px-0.5 py-0.25 
+                  className="absolute bottom-4 left-[55%] transform -translate-x-1/2  rounded-md px-0.5 py-0.25 
                      before:content-[''] before:absolute  before:bottom-[-6px] before:left-1/2       
                 before:translate-x-[-50%] 
                before:border-l-[7px] before:border-r-[7px] before:border-t-[7px]
@@ -121,7 +120,7 @@ const Page1 = () => {
                    bg-blue-700
                     "
                 >
-                  99$
+                  55%
                 </span>
               </div>
             </div>
@@ -178,7 +177,7 @@ const Page1 = () => {
           </div>
         </div>
         {/* Start Tickets Statistics */}
-        <div className="tickets p-10 card bg-white text-start  rounded-xl">
+        <div className="tickets p-10 card ml-2 mb-2 bg-white text-start  rounded-xl">
           <h2 className="max-sm:text-center font-bold text-2xl text-black pb-5">
             Tickets Statistics
           </h2>
@@ -231,7 +230,7 @@ const Page1 = () => {
         {/* End Tickets Statistics */}
 
         {/* Start Latest News */}
-        <div className="latest-news card p-10 bg-white text-start  rounded-xl max-sm:text-center">
+        <div className="latest-news card ml-2 mb-2 p-10 bg-white text-start  rounded-xl max-sm:text-center">
           <h2 className="font-bold text-2xl text-black pb-5 mb-2">
             Latest News
           </h2>
@@ -300,7 +299,7 @@ const Page1 = () => {
         </div>
         {/* End Latest News */}
         {/* START Latest Tasks */}
-        <div className="tasks card p-10 bg-white rounded-lg">
+        <div className="tasks card p-10 ml-2 mb-2 bg-white rounded-lg">
           <h2 className="font-bold text-2xl text-black text-start pb-5">
             Latest Tasks
           </h2>
@@ -387,7 +386,7 @@ const Page1 = () => {
         </div>
         {/* End Latest Tasks */}
         {/* Start Top Search Items */}
-        <div className="search-items card p-10 bg-white rounded-lg">
+        <div className="search-items card ml-2 mb-2 p-10 bg-white rounded-lg">
           <h2 className="m0 p-0 mb-10 font-bold text-2xl text-black text-start">
             Top Search Items
           </h2>
@@ -447,12 +446,16 @@ const Page1 = () => {
 
         {/* End Top Search Items */}
         {/* Start Latest Uploads*/}
-        <div className="latest-uploads card p-10 bg-white rounded-lg ">
+        <div className="latest-uploads ml-2 mb-2 card p-10 bg-white rounded-lg ">
           <h2 className="font-bold text-2xl text-black mb-8">Latest Uploads</h2>
           <ul className="m-0">
             <li className="flex justify-between items-center pb-4 mb-2 border-b border-gray-400">
               <div className="flex items-center">
-                <img className="mr-5 w-[40px] h-[40px]" src={pdf} alt="no img" />
+                <img
+                  className="mr-5 w-[40px] h-[40px]"
+                  src={pdf}
+                  alt="no img"
+                />
                 <div>
                   <p className="m-0 block text-lg text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500 font-bold">
                     my-file.pdf
@@ -504,11 +507,7 @@ const Page1 = () => {
             </li>
             <li className="flex justify-between items-center pb-5 mb-2 border-b border-gray-400">
               <div className="flex items-center">
-                <img
-                  className="mr-5 w-[40px] h-[40px]"
-                  src={zip}
-                  alt=""
-                />
+                <img className="mr-5 w-[40px] h-[40px]" src={zip} alt="" />
                 <div>
                   <p className="m-0 block text-lg text-transparent bg-clip-text bg-gradient-to-r from-[#243748] to-[#4b749f] font-bold">
                     My-Zip-File.pdf
@@ -522,11 +521,7 @@ const Page1 = () => {
             </li>
             <li className="flex justify-between items-center pb-5 mb-2 border-b border-gray-400">
               <div className="flex items-center">
-                <img
-                  className="mr-5 w-[40px] h-[40px]"
-                  src={dll}
-                  alt=""
-                />
+                <img className="mr-5 w-[40px] h-[40px]" src={dll} alt="" />
                 <div>
                   <p className="m-0 block text-lg text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-500 font-bold">
                     My-DLL-File.pdf
@@ -540,11 +535,7 @@ const Page1 = () => {
             </li>
             <li className="flex justify-between items-center pb-5 mb-2 border-b border-gray-400">
               <div className="flex items-center">
-                <img
-                  className="mr-5 w-[40px] h-[40px]"
-                  src={eps}
-                  alt=""
-                />
+                <img className="mr-5 w-[40px] h-[40px]" src={eps} alt="" />
                 <div>
                   <p className="m-0 block text-lg text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-500 font-bold">
                     My-Eps-File.pdf
@@ -562,7 +553,7 @@ const Page1 = () => {
         </div>
         {/* End Latest Uploads*/}
         {/* Start Current Project*/}
-        <div className="last-porject card p-10 bg-white rounded-lg relative max-h-full">
+        <div className="last-porject card ml-2 mb-2 p-10 bg-white rounded-lg relative max-h-full">
           <h2 className="mt-0 mb-10 text-start font-bold text-2xl">
             Current Project
           </h2>
@@ -591,7 +582,7 @@ const Page1 = () => {
         </div>
         {/* End Current Project*/}
         {/*Start Reminders */}
-        <div className="reminders card p-10 bg-white rounded-lg relative">
+        <div className="reminders card p-10 ml-2 mb-2 bg-white rounded-lg relative">
           <h2 className="mt-0 mb-10 text-start font-bold text-2xl">
             Reminders
           </h2>
@@ -632,16 +623,12 @@ const Page1 = () => {
         </div>
         {/*End Reminders */}
         {/* Start Latest Post */}
-        <div className="latest-post card p-10 bg-white rounded-lg">
+        <div className="latest-post card p-10 ml-2 mb-2 bg-white rounded-lg">
           <h2 className="mt-0 mb-10 text-start font-bold text-2xl max-sm:text-center">
             Latest Post
           </h2>
           <div className="heading flex ">
-            <img
-              className="w-12 rounded-full mr-4"
-              src={avatar}
-              alt=""
-            />
+            <img className="w-12 rounded-full mr-4" src={avatar} alt="" />
             <div className="info flex flex-col text-start">
               <span className="block font-bold "> Abdullah Kh</span>
               <p>About 3 Hours Ago</p>
@@ -671,7 +658,7 @@ const Page1 = () => {
         </div>
         {/* End Latest Post */}
         {/* Start Social Media Stats */}
-        <div className="social-media card p-10 bg-white rounded-lg transition-all">
+        <div className="social-media card p-10 ml-2 mb-2 bg-white rounded-lg transition-all">
           <h2 className=" text-start max-sm:text-center font-bold text-2xl mb-10">
             Social Media Stats
           </h2>
@@ -740,7 +727,7 @@ const Page1 = () => {
         {/*End Social Media Stats  */}
       </div>
       {/* Start Projects Table */}
-      <div className="projects card p-10 bg-white rounded-lg m-10">
+      <div className="projects card p-10 ml-2 mb-2 bg-white rounded-lg m-10">
         <h2 className=" text-start max-sm:text-center font-bold text-2xl mb-10 text-black">
           Projects
         </h2>

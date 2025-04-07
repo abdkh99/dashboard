@@ -16,7 +16,7 @@ export default {
         "max-md": { max: "767px" }, // أقل من 768px
         "max-lg": { max: "1023px" }, // أقل من 1024px
         "max-xl": { max: "1279px" }, // أقل من 1280px
-        "max-2xl": { max: "1535px" }, // أقل من 1536px
+       "max-2xl": { max: "1535px" }, // أقل من 1536px
       },
     },
   },
