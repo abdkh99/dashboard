@@ -11,7 +11,7 @@ const Page7 = () => {
       <h1 className="heading-h1 fade-in">Files</h1>
       <div className="Files-Page flex flex-row-reverse mx-4 max-md:flex-col max-md:mx-4 ">
         <div className="content-2  min-w-[15rem]">
-          <div className="bg-white ml-2 px-4 py-5 rounded-lg shadow-xl">
+          <div className="bg-whitepx-4 py-5 rounded-lg shadow-xl">
             <h1 className="text-bold text-xl mb-6">Files Statistics</h1>
             {/* Start PD */}
             <div className="row-box flex justify-between items-center border p-2 rounded-lg mb-2">
@@ -89,16 +89,8 @@ const Page7 = () => {
           >
             {/* Box 1 - Variant 1 (pdf) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+              card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -120,16 +112,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 2 - Variant 2 (avi) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+              card pb-5 relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -151,16 +135,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 3 - Variant 1 (pdf) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -182,16 +158,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 4 - Variant 3 (avi/eps) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -213,16 +181,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 5 - Variant 3 (avi/eps) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -244,16 +204,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 6 - Variant 5 (dell) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -275,16 +227,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 7 - Variant 6 (dell/png) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -306,16 +250,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 8 - Variant 4 (psd) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -337,16 +273,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 9 - Variant 2 (avi) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -368,16 +296,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 10 - Variant 4 (psd) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -399,16 +319,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 11 - Variant 6 (dell/png) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -430,16 +342,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 12 - Variant 5 (dell) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -461,16 +365,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 13 - Variant 1 (pdf) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -492,16 +388,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 14 - Variant 2 (avi) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -523,16 +411,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 15 - Variant 4 (psd) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -554,16 +434,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 16 - Variant 6 (dell/png) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -585,16 +457,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 17 - Variant 4 (psd) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -616,16 +480,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 18 - Variant 5 (dell) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -647,16 +503,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 19 - Variant 3 (avi/eps) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -678,16 +526,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 20 - Variant 2 (avi) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -708,16 +548,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
             {/* End Box 20 */}
             {/* Box 21 - Variant 1 (pdf) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -739,16 +571,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 22 - Variant 2 (avi) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -770,16 +594,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 23 - Variant 4 (psd) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />
@@ -801,16 +617,8 @@ card pb-5 ml-2 relative mt-3 rounded-md "
 
             {/* Box 24 - Variant 5 (dell) */}
             <div
-              className="bg-white group p-10 card
-card
-card
-card
-card
-card
-card
-card
-card
-card pb-5 ml-2 relative mt-3 rounded-md "
+              className="bg-white group p-10 
+card pb-5  relative mt-3 rounded-md "
             >
               <div className="DOUNLOAD absolute top-1 left-3">
                 <FontAwesomeIcon className="text-gray-600" icon={faDownload} />

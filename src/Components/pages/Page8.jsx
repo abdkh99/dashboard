@@ -7,7 +7,7 @@ const Page8 = () => {
   return (
     <>
       <p className="heading-h1 fade-in">Plans</p>
-      <div className="content grid xl:grid-cols-3 gap-4">
+      <div className="content grid :grid-cols-3 gap-4">
         {/* Start Box */}
         <div className="box p-5 card bg-white m-2">
           <div className="head w-full h-28 bg-green-500 text-white flex items-center justify-center outline outline-green-500 outline-3 outline-offset-4">
