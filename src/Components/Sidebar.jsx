@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
@@ -12,7 +11,6 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Sidebar = () => {
   const activeClassName = "bg-[#f6f6f6]";
-const [isOpen, setIsOpen] = useState(false);  
   return (
     <div className="sidebar text-black bg-white p-10 relative shadow-2xl w-[220px] max-md:w-[60px]  items- overflow-hidden ">
       <h3
@@ -23,15 +21,6 @@ const [isOpen, setIsOpen] = useState(false);
       >
         ABD KH
       </h3>
-      
-      <button
-        className="md:hidden p-2 bg-blue-500 text-white rounded translate-x-[-2rem] translate-y-[-1rem] "
-        onClick={() => setIsOpen(!isOpen)}
-      >
-        {isOpen ? "Open" : "Close"}
-      </button>
-
-
       <ul className=" w-full items-center absolute left-0 list-none">
         <li className="w-full">
           <NavLink
