@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChartSimple } from "@fortawesome/free-solid-svg-icons";
@@ -11,17 +12,26 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Sidebar = () => {
   const activeClassName = "bg-[#f6f6f6]";
-
+const [isOpen, setIsOpen] = useState(false);  
   return (
     <div className="sidebar text-black bg-white p-10 relative shadow-2xl w-[220px] max-md:w-[60px]  items- overflow-hidden ">
       <h3
         className="relative text-center mt-0 mb-8 font-serif font-extrabold 
                    before:content[''] before:absolute before:w-1/2 before:h-0.5 before:bottom-[-10px] before:bg-black 
                    after:content[''] after:absolute after:rounded-full after:bg-black after:bottom-[-15px] after:w-3 after:h-3 after:left-1/2 after:translate-x-[-70%]  
-                   max-md:text-sm max-md:before:invisible max-md:after:invisible max-md:ml-[-2rem] max-md:text-nowrap max-md:invisible"
+                   max-md:text-xs max-md:before:invisible max-md:after:invisible max-md:ml-[-2rem] max-md:text-nowrap "
       >
         ABD KH
       </h3>
+      
+      <button
+        className="md:hidden p-2 bg-blue-500 text-white rounded translate-x-[-2rem] translate-y-[-1rem] "
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        {isOpen ? "Open" : "Close"}
+      </button>
+
+
       <ul className=" w-full items-center absolute left-0 list-none">
         <li className="w-full">
           <NavLink

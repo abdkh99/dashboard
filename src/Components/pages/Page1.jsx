@@ -16,7 +16,7 @@ import {
 } from "../pages/icons";
 // import imaged
 import welcome from "../../../public/assets/welcome.png";
-import avatar  from "../../../public/assets/avatar.png";
+import avatar from "../../../public/assets/avatar.png";
 import project from "../../../public/assets/project.png";
 import news_01 from "../../../public/assets/news-01.png";
 import news_02 from "../../../public/assets/news-02.png";
@@ -33,14 +33,23 @@ const Page1 = () => {
   return (
     <>
       <div>
-        <h1 className="heading-h1 fade-in">Dashboard</h1>
+        <h1 className="heading-h1 fade-in ">Dashboard</h1>
       </div>
-      <div className=" wrapper mx-2 max-md:mx-1 text-center lg:mx-4 text-black grid grid-cols-3  max-xl:grid-cols-1 max-xl:gap-4   ">
-        <div className="welcome box-shadow rounded-md shadow-xl min-sm:ml-4  bg-white mb-2 ml-2 relative overflow-hidden card">
+      <div
+        className=" wrapper text-center text-black grid grid-cols-3 max-md:mx-1
+                   lg:mx-4
+                   max-xl:grid-cols-1
+                   lg:gap-4
+                   max-md:gap-1 
+                   sm:mx-2
+                   "
+      >
+        {/* Start Welcome */}
+        <div className="welcome box-shadow rounded-md shadow-xl min-sm:ml-4  bg-white mb-2 lg:gap-2 relative overflow-hidden card">
           <div className="intro flex relative bg-[#eee] w-full p-5 justify-between">
             <div className="max-md:text-center w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
               <h2 className="m-0 font-bold text-xl">Welcome</h2>
-              <p className="text-gray-500 mt-5">Elzero</p>
+              <p className="text-gray-500 mt-5">Abd Kh</p>
             </div>
             <img
               className="h-20  w-30 p-1 m-4 max-sm:invisible "
@@ -74,7 +83,9 @@ const Page1 = () => {
             </a>
           </div>
         </div>
-        <div className="quic-draft p-5 mb-2 card box-shadow rounded-md shadow-xl min-sm:ml-4  bg-white  relative overflow-hidden  ml-2 ">
+        {/* End Welcome */}
+        {/* START QUICK DRAFT */}
+        <div className="quic-draft p-5 mb-2 card box-shadow rounded-md shadow-xl min-sm:ml-4  bg-white  relative overflow-hidden  lg:gap-2 ">
           <h2 className="mb-1 m-0 font-bold">QuiCk Draft</h2>
           <p className="text-gray-400 mt-0 mb-10">
             Write A Draft For Your Ideas
@@ -96,8 +107,8 @@ const Page1 = () => {
             />
           </form>
         </div>
-
-        <div className="targets  pt-5 px-3 card bg-white rounded-lg shadow-xl ml-2 mb-2">
+        {/* END QUICK DRAFT */}
+        <div className="targets  pt-5 px-3 card bg-white rounded-lg shadow-xl lg:gap-2 mb-2">
           <h2 className="mt-0 mb-6 ">Targets</h2>
           <p className="mt-0 mb-4 text-gray-500">Targets Of The Year</p>
           <div className="tragets-row mb-6 blue flex  items-center">
@@ -177,7 +188,7 @@ const Page1 = () => {
           </div>
         </div>
         {/* Start Tickets Statistics */}
-        <div className="tickets p-10 card ml-2 mb-2 bg-white text-start  rounded-xl">
+        <div className="tickets p-10 card lg:gap-2 mb-2 bg-white text-start  rounded-xl">
           <h2 className="max-sm:text-center font-bold text-2xl text-black pb-5">
             Tickets Statistics
           </h2>
@@ -230,7 +241,7 @@ const Page1 = () => {
         {/* End Tickets Statistics */}
 
         {/* Start Latest News */}
-        <div className="latest-news card ml-2 mb-2 p-10 bg-white text-start  rounded-xl max-sm:text-center">
+        <div className="latest-news card lg:gap-2 mb-2 p-10 bg-white text-start  rounded-xl max-sm:text-center">
           <h2 className="font-bold text-2xl text-black pb-5 mb-2">
             Latest News
           </h2>
@@ -299,7 +310,7 @@ const Page1 = () => {
         </div>
         {/* End Latest News */}
         {/* START Latest Tasks */}
-        <div className="tasks card p-10 ml-2 mb-2 bg-white rounded-lg">
+        <div className="tasks card p-10 lg:gap-2 mb-2 bg-white rounded-lg">
           <h2 className="font-bold text-2xl text-black text-start pb-5">
             Latest Tasks
           </h2>
@@ -386,7 +397,7 @@ const Page1 = () => {
         </div>
         {/* End Latest Tasks */}
         {/* Start Top Search Items */}
-        <div className="search-items card ml-2 mb-2 p-10 bg-white rounded-lg">
+        <div className="search-items card lg:gap-2 mb-2 p-10 bg-white rounded-lg">
           <h2 className="m0 p-0 mb-10 font-bold text-2xl text-black text-start">
             Top Search Items
           </h2>
@@ -446,7 +457,7 @@ const Page1 = () => {
 
         {/* End Top Search Items */}
         {/* Start Latest Uploads*/}
-        <div className="latest-uploads ml-2 mb-2 card p-10 bg-white rounded-lg ">
+        <div className="latest-uploads lg:gap-2 mb-2 card p-10 bg-white rounded-lg ">
           <h2 className="font-bold text-2xl text-black mb-8">Latest Uploads</h2>
           <ul className="m-0">
             <li className="flex justify-between items-center pb-4 mb-2 border-b border-gray-400">
@@ -553,7 +564,7 @@ const Page1 = () => {
         </div>
         {/* End Latest Uploads*/}
         {/* Start Current Project*/}
-        <div className="last-porject card ml-2 mb-2 p-10 bg-white rounded-lg relative max-h-full">
+        <div className="last-porject card lg:gap-2 mb-2 p-10 bg-white rounded-lg relative max-h-full">
           <h2 className="mt-0 mb-10 text-start font-bold text-2xl">
             Current Project
           </h2>
@@ -582,36 +593,36 @@ const Page1 = () => {
         </div>
         {/* End Current Project*/}
         {/*Start Reminders */}
-        <div className="reminders card p-10 ml-2 mb-2 bg-white rounded-lg relative">
+        <div className="reminders card p-10 lg:gap-2 mb-2 bg-white rounded-lg relative">
           <h2 className="mt-0 mb-10 text-start font-bold text-2xl">
             Reminders
           </h2>
           <ul className="m-0">
             <li className="flex items-center mt-7 ">
-              <span className="key bg-blue-700 mr-10 rounded-full w-5 h-5"></span>
+              <span className="key bg-blue-700 mr-10 rounded-full p-2.5 w-2 h-2"></span>
               <div className="pl-7 border-l-4 border-blue-700">
                 <p className="font-bold text-lg ">Cheack My Tasks List</p>
                 <span className="text-gray-500">28/04/2025 - 12:00am</span>
               </div>
             </li>
             <li className="flex items-center mt-7 ">
-              <span className="key bg-green-700 mr-10 rounded-full w-5 h-5"></span>
+              <span className="key bg-green-700 mr-10 rounded-full p-2.5 w-2 h-2"></span>
               <div className="pl-7 border-l-4 border-green-700">
                 <p className="font-bold text-lg ">Check My Projects</p>
                 <span className="text-gray-500">2/04/2020 - 05:00pm</span>
               </div>
             </li>
             <li className="flex items-center mt-7 ">
-              <span className="key bg-red-700 mr-10 rounded-full w-5 h-5"></span>
+              <span className="key bg-red-700 mr-10 rounded-full p-2.5 w-2 h-2"></span>
               <div className="pl-7 border-l-4 border-red-700">
                 <p className="font-bold text-lg ">Call All My Clients</p>
                 <span className="text-gray-500">28/03/2025 - 01:00am</span>
               </div>
             </li>
             <li className="flex items-center mt-7 ">
-              <span className="key bg-orange-500 mr-10 rounded-full w-5 h-5"></span>
-              <div className="pl-7 border-l-4 border-orange-500">
-                <p className="font-bold text-lg ">
+              <span className="key bg-orange-500 mr-10 rounded-full p-2.5 w-2 h-2"></span>
+              <div className="pl-4 border-l-4 border-orange-500">
+                <p className="font-bold text-lg w-full">
                   Finish The Development Workshop
                 </p>
                 <span className="text-gray-500 text-start block">
@@ -623,12 +634,12 @@ const Page1 = () => {
         </div>
         {/*End Reminders */}
         {/* Start Latest Post */}
-        <div className="latest-post card p-10 ml-2 mb-2 bg-white rounded-lg">
+        <div className="latest-post card p-10 lg:gap-2 mb-2 bg-white rounded-lg">
           <h2 className="mt-0 mb-10 text-start font-bold text-2xl max-sm:text-center">
             Latest Post
           </h2>
-          <div className="heading flex ">
-            <img className="w-12 rounded-full mr-4" src={avatar} alt="" />
+          <div className="heading flex flex-wrap ">
+            <img className="w-12 mr-4 rounded-full" src={avatar} alt="" />
             <div className="info flex flex-col text-start">
               <span className="block font-bold "> Abdullah Kh</span>
               <p>About 3 Hours Ago</p>
@@ -658,67 +669,98 @@ const Page1 = () => {
         </div>
         {/* End Latest Post */}
         {/* Start Social Media Stats */}
-        <div className="social-media card p-10 ml-2 mb-2 bg-white rounded-lg transition-all">
+        <div className="social-media card p-10 max-sm:px-3 lg:gap-2 mb-2 bg-white rounded-lg transition-all">
           <h2 className=" text-start max-sm:text-center font-bold text-2xl mb-10">
             Social Media Stats
           </h2>
           <div className="Social-content">
-            <div className="Social-row group flex justify-between relative items-center mb-1 border pl-0 p-5 rounded-lg max-h-20 overflow-hidden bg-blue-200">
+            <div
+              className="Social-row group flex justify-between relative items-center mb-1 border rounded-lg h-20 overflow-hidden bg-blue-200 
+              max-sm:h-16
+             "
+            >
               <div className="flex justify-between  items-center">
                 <FontAwesomeIcon
-                  className="mr-6 group-hover:rotate-[6deg] group-hover:scale-[1.09] transition-all text-white text-3xl font-bold bg-blue-500 p-5 rounded-[4px] h-10 w-10 flex justify-center items-center "
+                  className="mr-6 group-hover:rotate-[6deg] group-hover:scale-[1.09] transition-all text-white text-4xl font-bold bg-blue-500 p-5 rounded-[4px]  flex justify-center items-center w-10
+                  max-sm:mr-1
+                  max-sm:text-5xl
+                  max-sm:py-6
+                  max-sm:w-5
+                  "
                   icon={faFacebookF}
                 />
-                <span className="font-bold text-blue-600"> 2M Like </span>
+                <span className="font-bold text-blue-600 max-sm:text-sm max-sm:text-start">
+                  2M Like
+                </span>
               </div>
-              <div className=" bg-gradient-to-tr from-blue-400 to-indigo-400 hover:from-blue-500 hover:to-indigo-500  cursor-pointer p-2.5 rounded-lg 1000">
-                <span className="text-white px-2.5 py-0.5 font-lg font-bold text-lg ">
+              <div className=" bg-gradient-to-tr from-blue-400 to-indigo-400 hover:from-blue-500 hover:to-indigo-500 w-20 cursor-pointer p-2.5 mr-4 rounded-lg max-sm:p-1.5 max-sm:mr-1">
+                <span className="text-white px-2.5 py-0.5 font-lg font-bold text-lg max-sm:text-sm">
                   Like
                 </span>
               </div>
             </div>
-            <div className="Social-row group flex justify-between relative items-center mb-1 border pl-0 p-5 rounded-lg max-h-20 overflow-hidden bg-gradient-to-tr from-[#c13584b5] to-[#833ab4dc]">
-              <div className="flex justify-between  items-center">
+            <div className="Social-row max-sm:h-16 group flex justify-between relative items-center mb-1 border  rounded-lg h-20 overflow-hidden bg-gradient-to-tr from-[#c13584b5] to-[#833ab4dc]">
+              <div className="flex justify-between items-center ">
                 <FontAwesomeIcon
-                  className="mr-6 group-hover:rotate-[6deg] group-hover:scale-[1.09] transition-all text-white text-3xl font-bold bg-gradient-to-tr from-[#c13584] to-[#833ab4] p-5 rounded-[4px] h-10 w-10 flex justify-center items-center  "
+                  className="mr-6 group-hover:rotate-[6deg] group-hover:scale-[1.09] transition-all text-white text-4xl font-bold 
+                 bg-gradient-to-t from-[#c13584] to-[#833ab4]   p-5 rounded-[4px]  flex justify-center items-center w-10
+                  max-sm:mr-1
+                  max-sm:text-5xl
+                  max-sm:w-5
+                  "
                   icon={faInstagram}
+                  bg-gradient-to-tr
                 />
-                <span className="font-bold text-[#802495]">
-                  {" "}
-                  90K Followers{" "}
+                <span className="font-bold max-sm:text-start text-[#802495] max-sm:text-sm">
+                  90K Followers
                 </span>
               </div>
-              <div className="bg-purple-600 p-2.5 rounded-lg hover:bg-purple-700 transition-all cursor-pointer">
-                <span className="text-white p-2.5 font-lg font-bold text-lg  ">
-                  follow
+              <div className="bg-gradient-to-t hover:to-indigo-500 w-20 cursor-pointer p-2.5 mr-4 rounded-lg max-sm:p-1.5 max-sm:mr-1    bg-purple-600 hover:bg-purple-700 flex items-center justify-center">
+                <span className="text-white px-2.5   font-lg font-bold text-lg max-sm:text-sm ">
+                  Follow
                 </span>
               </div>
             </div>
-            <div className="Social-row group flex justify-between relative items-center mb-1 border pl-0 p-5 rounded-lg max-h-20 overflow-hidden bg-red-200">
-              <div className="flex justify-between  items-center">
+            <div className="Social-row group flex justify-between relative items-center mb-1 border max-sm:h-16  rounded-lg h-20 overflow-hidden bg-red-200">
+              <div className="flex justify-between items-center ">
                 <FontAwesomeIcon
-                  className="mr-6 group-hover:rotate-[6deg] group-hover:scale-[1.09] transition-all text-white text-3xl font-bold bg-red-500 p-5 rounded-[4px] h-10 w-10 flex justify-center items-center "
+                  className="mr-6 group-hover:rotate-[6deg] group-hover:scale-[1.09] transition-all text-white text-4xl font-bold bg-red-500 p-5 rounded-[4px]  flex justify-center items-center w-10
+                  max-sm:mr-1
+                  max-sm:text-5xl
+                  max-sm:py-6
+                  max-sm:w-5
+                  "
                   icon={faYoutube}
                 />
-                <span className="font-bold text-red-500"> 22M Subs </span>
+                <span className="font-bold text-red-500 max-sm:text-sm max-sm:text-start">
+                  22M Subs
+                </span>
               </div>
-              <div className="bg-red-500 cursor-pointer hover:bg-red-600 hover:rounded-xl p-2.5 rounded-lg transition-all">
-                <span className="text-white font-lg font-bold text-lg transition-all">
+              <div className="bg-red-500 hover:bg-red-600 w-[5.5rem] cursor-pointer 5 mr-4 rounded-lg max-sm:p-1.5 max-sm:mr-1 flex items-center justify-center p-2.5">
+                <span className="text-white font-lg font-bold text-lg max-sm:text-sm ">
                   Subscribe
                 </span>
               </div>
             </div>
-            <div className="Social-row group flex justify-between relative items-center mb-5 border pl-0 p-5 rounded-lg max-h-20 overflow-hidden bg-cyan-200">
+            <div className="Social-row group flex justify-between relative items-center  border pl-0 rounded-lg h-20 overflow-hidden bg-cyan-200 max-sm:h-16">
               <div className="flex justify-between  items-center">
                 <FontAwesomeIcon
-                  className="mr-6 group-hover:rotate-[6deg] group-hover:scale-[1.09] transition-all text-white text-3xl font-bold bg-cyan-500 p-5 rounded-[4px] h-10 w-10 flex justify-center items-center "
+                  className="mr-6 group-hover:rotate-[6deg] group-hover:scale-[1.09] transition-all text-white text-4xl font-bold bg-cyan-500 p-5 rounded-[4px]  flex justify-center items-center w-10
+                  max-sm:mr-1
+                  max-sm:text-5xl
+                  max-sm:py-6
+                  max-sm:w-5
+                  "
                   icon={faLinkedin}
                 />
-                <span className="text-cyan-600 font-bold"> 10K Followers </span>
+                <span className="text-cyan-600 font-bold max-sm:text-sm max-sm:text-start">
+                  10K <br />
+                  Followers
+                </span>
               </div>
-              <div className="bg-cyan-500 cursor-pointer px-5 py-1 rounded-lg hover:rounder-xl hover:bg-cyan-600 transition-all">
-                <span className="text-white font-lg font-bold text-lg p-1 block  transition-all">
-                  follow
+              <div className="bg-cyan-500 hover:bg-cyan-600  w-20 cursor-pointer p-2.5 mr-4 rounded-lg max-sm:p-1.5 max-sm:mr-1     flex items-center justify-center">
+                <span className="text-white px-2.5   font-lg font-bold text-lg max-sm:text-sm ">
+                  Follow
                 </span>
               </div>
             </div>
@@ -727,8 +769,8 @@ const Page1 = () => {
         {/*End Social Media Stats  */}
       </div>
       {/* Start Projects Table */}
-      <div className="projects card p-10 ml-2 mb-2 bg-white rounded-lg m-10">
-        <h2 className=" text-start max-sm:text-center font-bold text-2xl mb-10 text-black">
+      <div className="projects card p-10 lg:gap-2 mb-2 mx-2 bg-white rounded-lg ">
+        <h2 className=" text-start max-sm:text-center font-bold text-2xl mb-10   text-black">
           Projects
         </h2>
         <div className=" responsive-table text-black overflow-x-auto">
@@ -779,7 +821,6 @@ const Page1 = () => {
                   className="border border-gray-200 p-2 group-hover:bg-gray-100 transition-all
  "
                 >
-                  {" "}
                   <span className="border p-1 rounded-lg text-black font-thin  bg-yellow-200">
                     Pending
                   </span>
@@ -817,7 +858,6 @@ const Page1 = () => {
                   05 Sep 2021
                 </td>
                 <td className="border border-gray-200 p-2 group-hover:bg-gray-100 transition-all">
-                  {" "}
                   Bouba
                 </td>
                 <td className="border border-gray-200 p-2 group-hover:bg-gray-100 transition-all">
@@ -827,7 +867,6 @@ const Page1 = () => {
                   Img
                 </td>
                 <td className="border border-gray-200 p-2 group-hover:bg-gray-100 transition-all">
-                  {" "}
                   <span className="border p-1 rounded-lg text-black font-thin  bg-green-200">
                     Completed
                   </span>
@@ -870,7 +909,6 @@ const Page1 = () => {
 "
                 >
                   <span className="border p-1 rounded-lg text-black font-thin  bg-green-200">
-                    {" "}
                     Completed
                   </span>
                 </td>
@@ -899,7 +937,6 @@ const Page1 = () => {
                   className="border border-gray-200 p-2 group-hover:bg-gray-100 transition-all
 "
                 >
-                  {" "}
                   $300
                 </td>
                 <td
@@ -913,7 +950,6 @@ const Page1 = () => {
 "
                 >
                   <span className="border p-1 rounded-lg text-black font-thin  bg-red-400">
-                    {" "}
                     Rejected
                   </span>
                 </td>
@@ -941,7 +977,6 @@ const Page1 = () => {
                   className="border border-gray-200 p-2 group-hover:bg-gray-100 transition-all
 "
                 >
-                  {" "}
                   $2600
                 </td>
                 <td
@@ -954,7 +989,6 @@ const Page1 = () => {
                   className="border border-gray-200 p-2 group-hover:bg-gray-100 transition-all
 "
                 >
-                  {" "}
                   <span className="border p-1 rounded-lg text-black font-thin  bg-yellow-200">
                     Pending
                   </span>
