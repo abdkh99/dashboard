@@ -11,8 +11,8 @@ const Page7 = () => {
       <h1 className="heading-h1 fade-in">Files</h1>
       <div className="Files-Page flex flex-row-reverse mx-4 max-md:flex-col max-md:mx-4 ">
         <div className="content-2  min-w-[15rem]">
-          <div className="bg-whitepx-4 py-5 rounded-lg shadow-xl">
-            <h1 className="text-bold text-xl mb-6">Files Statistics</h1>
+          <div className="bg-whitepx-4 ml-2 py-5 rounded-lg shadow-xl">
+            <h1 className="text-bold text-xl  mb-6">Files Statistics</h1>
             {/* Start PD */}
             <div className="row-box flex justify-between items-center border p-2 rounded-lg mb-2">
               <div className="flex flex-row">
