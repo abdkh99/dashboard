@@ -14,7 +14,7 @@ const HeroContent = () => {
             icon={faMagnifyingGlass}
           />
           <input
-            className="p-2 border-[2px]  border-[#cacaca] pl-9 rounded-lg bg-white focus:placeholder:text-transparent outline-none focus:border-gray-400 w-[14rem] focus:w-[15rem] duration-300 transition-all  text-black"
+            className="p-2 border-[2px]  border-[#cacaca] pl-9 rounded-lg bg-white focus:placeholder:text-transparent outline-none focus:border-gray-400 w-[11rem] focus:w-[12rem] duration-300 transition-all  text-black"
             type="serach"
             placeholder="type a keyword"
           />
